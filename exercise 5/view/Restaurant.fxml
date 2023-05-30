@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RestaurantController">
+   <children>
+      <ImageView fitHeight="59.0" fitWidth="138.0" layoutX="472.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Aristocrat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="81.0" layoutX="14.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Blakes.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="131.0" layoutX="214.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Cabalen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="153.0" layoutX="350.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Maxs.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="94.0" layoutX="109.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Buddys.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="31.0" layoutY="260.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: black;" text="Blakes" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="129.0" layoutY="260.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: black;" text="Buddy's" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="252.0" layoutY="260.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: black;" text="Cabalen" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="383.0" layoutY="260.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: black;" text="Cabalen" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="513.0" layoutY="260.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: black;" text="Aristocrat" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
